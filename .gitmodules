@@ -1,3 +1,6 @@
 [submodule "lib/hello"]
 	path = lib/hello
 	url = git@github.com:MrSwitch/hello.js.git
+[submodule "adorn"]
+	path = adorn
+	url = git@github.com:MrSwitch/adorn.git

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<title>Hello World</title>
+<style>
+	body, html{
+		height:100%;
+		-webkit-user-select: text;
+	}
+	body > div{
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+	}
+	iframe{
+		flex:1 0 0;
+		border:none;
+		height:auto;
+		overflow:auto;
+		width:100%;
+	}
+</style>
+
+<div>
+
+<nav>
+	<a href="lib/hello/tests/specs/index.html" target="theFrame">Specs</a> | <a href="lib/hello/demos/profile.html" target="theFrame">Demos</a>
+</nav>
+
+<iframe name="theFrame" scrolling="yes" src="lib/hello/demos/profile.html"></iframe>

@@ -1,0 +1,19 @@
+{
+  "name": "HelloJS in a Google Chrome App",
+  "description": "Example of using HelloJS in a Google Chrome App",
+  "version": "0.1",
+  "manifest_version": 2,
+  "content_security_policy": "img-src 'self' */",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "sandbox": {
+  },
+  "permissions": [
+    "identity",
+    "storage",
+    "http://*/"],
+  "icons": { "64": "meta/logo.png" }
+}
