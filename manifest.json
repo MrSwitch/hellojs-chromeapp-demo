@@ -3,7 +3,6 @@
   "description": "Example of using HelloJS in a Google Chrome App",
   "version": "0.1",
   "manifest_version": 2,
-  "content_security_policy": "img-src 'self' */",
   "app": {
     "background": {
       "scripts": ["background.js"]
@@ -14,6 +13,6 @@
   "permissions": [
     "identity",
     "storage",
-    "http://*/"],
-  "icons": { "64": "meta/logo.png" }
+    "https://*/"],
+  "icons": { "64": "lib/hello/assets/logo.png" }
 }
