@@ -14,5 +14,5 @@
     "identity",
     "storage",
     "https://*/"],
-  "icons": { "64": "lib/hello/assets/logo.png" }
+  "icons": { "64": "lib/hello/assets/logo-w64.png" }
 }
