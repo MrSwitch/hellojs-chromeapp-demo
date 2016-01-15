@@ -3,10 +3,9 @@
   "description": "Example of using HelloJS in a Google Chrome App",
   "version": "0.1",
   "manifest_version": 2,
-  "app": {
-    "background": {
-      "scripts": ["background.js"]
-    }
+  "browser_action": {
+    "default_icon": "lib/hello/assets/logo-w64.png",
+    "default_popup": "index.html"
   },
   "sandbox": {
   },
